@@ -7,18 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B2B21FC2C96F79E00A7441B /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2B21FB2C96F79E00A7441B /* ListView.swift */; };
+		8B2B22002C96FAEA00A7441B /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2B21FF2C96FAEA00A7441B /* ChartView.swift */; };
+		8B2B22022C96FD7E00A7441B /* LineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2B22012C96FD7E00A7441B /* LineChart.swift */; };
+		8B2B22042C96FECD00A7441B /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2B22032C96FECD00A7441B /* PieChart.swift */; };
+		8B2B22062C97CE1000A7441B /* StackedBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2B22052C97CE1000A7441B /* StackedBarChart.swift */; };
+		8B2B22082C97CE3700A7441B /* OneDBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2B22072C97CE3700A7441B /* OneDBarChart.swift */; };
+		8B2B220E2C97D6D300A7441B /* IntervalBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2B220D2C97D6D300A7441B /* IntervalBarChart.swift */; };
+		8B2B22102C97D70600A7441B /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2B220F2C97D70600A7441B /* Job.swift */; };
+		8B2B22122C97DD5200A7441B /* GroupedBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2B22112C97DD5200A7441B /* GroupedBarChart.swift */; };
+		8B2B22152C97FE2A00A7441B /* DoubleLineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2B22142C97FE2A00A7441B /* DoubleLineChart.swift */; };
+		8B2B221A2C980B9700A7441B /* DonutChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2B22192C980B9700A7441B /* DonutChart.swift */; };
+		8B2B221C2C9814C400A7441B /* CombinationChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2B221B2C9814C400A7441B /* CombinationChart.swift */; };
+		8B2B221E2C98155600A7441B /* MonthlyRainfallAndTemperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2B221D2C98155600A7441B /* MonthlyRainfallAndTemperature.swift */; };
+		8B7F249D2CA0708800D88902 /* MonthlyHoursOfTwoCitySunshine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7F249C2CA0708800D88902 /* MonthlyHoursOfTwoCitySunshine.swift */; };
 		8BCE9D7B2C93D28E004D804D /* ChartsDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCE9D7A2C93D28E004D804D /* ChartsDemoApp.swift */; };
-		8BCE9D7D2C93D28E004D804D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCE9D7C2C93D28E004D804D /* ContentView.swift */; };
 		8BCE9D7F2C93D290004D804D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BCE9D7E2C93D290004D804D /* Assets.xcassets */; };
 		8BCE9D822C93D290004D804D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BCE9D812C93D290004D804D /* Preview Assets.xcassets */; };
+		8BCE9E192C9409A2004D804D /* ToyShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCE9E182C9409A2004D804D /* ToyShape.swift */; };
+		8BCE9E1D2C957DF5004D804D /* BarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCE9E1C2C957DF5004D804D /* BarChart.swift */; };
+		8BEA37D82CA06B87003A97BA /* ZoomableChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEA37D72CA06B87003A97BA /* ZoomableChart.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B2B21FB2C96F79E00A7441B /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		8B2B21FF2C96FAEA00A7441B /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		8B2B22012C96FD7E00A7441B /* LineChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChart.swift; sourceTree = "<group>"; };
+		8B2B22032C96FECD00A7441B /* PieChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChart.swift; sourceTree = "<group>"; };
+		8B2B22052C97CE1000A7441B /* StackedBarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackedBarChart.swift; sourceTree = "<group>"; };
+		8B2B22072C97CE3700A7441B /* OneDBarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneDBarChart.swift; sourceTree = "<group>"; };
+		8B2B220D2C97D6D300A7441B /* IntervalBarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntervalBarChart.swift; sourceTree = "<group>"; };
+		8B2B220F2C97D70600A7441B /* Job.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
+		8B2B22112C97DD5200A7441B /* GroupedBarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupedBarChart.swift; sourceTree = "<group>"; };
+		8B2B22142C97FE2A00A7441B /* DoubleLineChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleLineChart.swift; sourceTree = "<group>"; };
+		8B2B22192C980B9700A7441B /* DonutChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonutChart.swift; sourceTree = "<group>"; };
+		8B2B221B2C9814C400A7441B /* CombinationChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinationChart.swift; sourceTree = "<group>"; };
+		8B2B221D2C98155600A7441B /* MonthlyRainfallAndTemperature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyRainfallAndTemperature.swift; sourceTree = "<group>"; };
+		8B7F249C2CA0708800D88902 /* MonthlyHoursOfTwoCitySunshine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyHoursOfTwoCitySunshine.swift; sourceTree = "<group>"; };
 		8BCE9D772C93D28E004D804D /* ChartsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChartsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BCE9D7A2C93D28E004D804D /* ChartsDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsDemoApp.swift; sourceTree = "<group>"; };
-		8BCE9D7C2C93D28E004D804D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8BCE9D7E2C93D290004D804D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BCE9D812C93D290004D804D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8BCE9E182C9409A2004D804D /* ToyShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToyShape.swift; sourceTree = "<group>"; };
+		8BCE9E1C2C957DF5004D804D /* BarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChart.swift; sourceTree = "<group>"; };
+		8BEA37D72CA06B87003A97BA /* ZoomableChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomableChart.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +64,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B2B220B2C97CF6500A7441B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8BCE9E182C9409A2004D804D /* ToyShape.swift */,
+				8B2B220F2C97D70600A7441B /* Job.swift */,
+				8B2B221D2C98155600A7441B /* MonthlyRainfallAndTemperature.swift */,
+				8B7F249C2CA0708800D88902 /* MonthlyHoursOfTwoCitySunshine.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8B2B220C2C97CFA800A7441B /* BarCharts */ = {
+			isa = PBXGroup;
+			children = (
+				8BCE9E1C2C957DF5004D804D /* BarChart.swift */,
+				8B2B22052C97CE1000A7441B /* StackedBarChart.swift */,
+				8B2B22112C97DD5200A7441B /* GroupedBarChart.swift */,
+				8B2B22072C97CE3700A7441B /* OneDBarChart.swift */,
+				8B2B220D2C97D6D300A7441B /* IntervalBarChart.swift */,
+			);
+			path = BarCharts;
+			sourceTree = "<group>";
+		};
+		8B2B22132C97DE9000A7441B /* LineCharts */ = {
+			isa = PBXGroup;
+			children = (
+				8B2B22012C96FD7E00A7441B /* LineChart.swift */,
+				8B2B22142C97FE2A00A7441B /* DoubleLineChart.swift */,
+			);
+			path = LineCharts;
+			sourceTree = "<group>";
+		};
+		8B2B22162C980A2500A7441B /* PieCharts */ = {
+			isa = PBXGroup;
+			children = (
+				8B2B22032C96FECD00A7441B /* PieChart.swift */,
+				8B2B22192C980B9700A7441B /* DonutChart.swift */,
+			);
+			path = PieCharts;
+			sourceTree = "<group>";
+		};
+		8B2B221F2C981B9300A7441B /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				8B2B221B2C9814C400A7441B /* CombinationChart.swift */,
+				8BEA37D72CA06B87003A97BA /* ZoomableChart.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
 		8BCE9D6E2C93D28E004D804D = {
 			isa = PBXGroup;
 			children = (
@@ -52,7 +134,13 @@
 			isa = PBXGroup;
 			children = (
 				8BCE9D7A2C93D28E004D804D /* ChartsDemoApp.swift */,
-				8BCE9D7C2C93D28E004D804D /* ContentView.swift */,
+				8B2B21FB2C96F79E00A7441B /* ListView.swift */,
+				8B2B21FF2C96FAEA00A7441B /* ChartView.swift */,
+				8B2B220B2C97CF6500A7441B /* Model */,
+				8B2B220C2C97CFA800A7441B /* BarCharts */,
+				8B2B22132C97DE9000A7441B /* LineCharts */,
+				8B2B22162C980A2500A7441B /* PieCharts */,
+				8B2B221F2C981B9300A7441B /* Others */,
 				8BCE9D7E2C93D290004D804D /* Assets.xcassets */,
 				8BCE9D802C93D290004D804D /* Preview Content */,
 			);
@@ -137,8 +225,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BCE9D7D2C93D28E004D804D /* ContentView.swift in Sources */,
+				8B2B221A2C980B9700A7441B /* DonutChart.swift in Sources */,
+				8B2B22082C97CE3700A7441B /* OneDBarChart.swift in Sources */,
+				8B2B220E2C97D6D300A7441B /* IntervalBarChart.swift in Sources */,
+				8B2B22042C96FECD00A7441B /* PieChart.swift in Sources */,
+				8B2B221E2C98155600A7441B /* MonthlyRainfallAndTemperature.swift in Sources */,
+				8B2B21FC2C96F79E00A7441B /* ListView.swift in Sources */,
 				8BCE9D7B2C93D28E004D804D /* ChartsDemoApp.swift in Sources */,
+				8B7F249D2CA0708800D88902 /* MonthlyHoursOfTwoCitySunshine.swift in Sources */,
+				8B2B221C2C9814C400A7441B /* CombinationChart.swift in Sources */,
+				8B2B22122C97DD5200A7441B /* GroupedBarChart.swift in Sources */,
+				8BCE9E1D2C957DF5004D804D /* BarChart.swift in Sources */,
+				8B2B22022C96FD7E00A7441B /* LineChart.swift in Sources */,
+				8B2B22102C97D70600A7441B /* Job.swift in Sources */,
+				8BEA37D82CA06B87003A97BA /* ZoomableChart.swift in Sources */,
+				8BCE9E192C9409A2004D804D /* ToyShape.swift in Sources */,
+				8B2B22152C97FE2A00A7441B /* DoubleLineChart.swift in Sources */,
+				8B2B22002C96FAEA00A7441B /* ChartView.swift in Sources */,
+				8B2B22062C97CE1000A7441B /* StackedBarChart.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
